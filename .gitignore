@@ -6,3 +6,6 @@ downloads/
 *.zip
 *.7z
 *.rar
+.vscode/*
+Start.bat
+Config.txt
