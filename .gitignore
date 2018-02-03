@@ -6,7 +6,6 @@ downloads/
 *.zip
 *.7z
 *.rar
-.vscode/*
+.vscode/
 Start.bat
-Config.txt
 Config.txt
