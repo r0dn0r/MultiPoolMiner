@@ -8,4 +8,5 @@ downloads/
 *.rar
 .vscode/
 Start.bat
+StartMining.bat
 Config.txt
