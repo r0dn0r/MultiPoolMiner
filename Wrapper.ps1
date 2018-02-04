@@ -32,7 +32,7 @@ do {
     $Job | Receive-Job | ForEach-Object {
         $Line = $_
 
-        if (($Line -like "*total*" -or $Line -like "*accepted*" -or $Line -like ">*") -and $Line -like "*/s*") {
+        if (($Line -like "*total*" -or $Line -like "*accepted*" -or $Line -like ">*" -or $Line -like "*speed*") -and $Line -like "*/s*") {
             $Words = $Line -split " "
 
             $matches = $null
