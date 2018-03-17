@@ -3,7 +3,10 @@ stats/
 logs/
 wrapper/
 downloads/
+.vscode/
 *.zip
 *.7z
 *.rar
 Pools/MiningDutch.ps1
+StartMining.bat
+StartNvidiaOnly.bat
